@@ -100,7 +100,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 }
 .navbar-brand {
       line-height: 35px;
-    font-size: 1.8em;
+    font-size: 1.2em;
     height: 63px;
     color: #fff;
 	 padding:15px 0;
@@ -157,13 +157,16 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 }
 /*-- //header --*/
 #home {
-    background: url(../images/banner.jpg) no-repeat center top;
+    background: url(../images/nn.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-       min-height: 715px;
+    min-height: 715px;
+    width: 100%;
+    height:100%;
+    background-position: center;
     position: relative;
 }
 .banner {
@@ -173,9 +176,9 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 }
 .banner img {
 	width:300px;
-       margin: 0 auto;
-    text-align: center;
-    border: 10px solid green;
+  margin: 0 auto;
+  text-align: center;
+  border: 5px solid #44c7f4;
 }
 .banner h2 {
     font-size: 3.5em;
@@ -185,8 +188,9 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 }
 .banner span {
     color: #44c7f4;
-	letter-spacing:4px;
+	letter-spacing:5px;
 	font-size:0.9em;
+  text-transform: uppercase;
 }
 .slider-info p {
     font-size:1em;
@@ -407,6 +411,14 @@ ul.top-links li a i.fa:hover {
 #about,#mail,#gallery {
     padding: 4em 0;
 }
+.portLink a{
+    margin-top: -10px;
+    display: block;
+    color: #fff;
+    padding: 5px 15px;
+    background: #545454ba;
+    border-radius: 6px;
+}
 .w3ls-agile-left-info {
     padding: 1em 0;
     border-bottom: 1px dashed #44c7f4;
@@ -623,10 +635,11 @@ p.b_label {
 }
 .hovereffect {
     width: 100%;
-    height: 100%;
+    height: 230px;
     overflow: hidden;
     position: relative;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .hovereffect .overlay {
@@ -658,7 +671,7 @@ p.b_label {
   position: relative;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 }
 
 .hovereffect:hover img {
@@ -1048,7 +1061,7 @@ p.counter {
     padding: 6em 4em;
 	}
 	.skills {
-       min-height: 835px;
+       min-height: 805px;
 	}
 	.banner h2 {
 		font-size: 3em;
